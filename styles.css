@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.head,
+.top-content,
+.foot {
+  background-color: #1f2937;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.head h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+.head a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.top-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 140px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.left h3 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.left p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.left button {
+  background-color: #3882f6;
+  color: white;
+  width: 135px;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+img {
+  width: 400px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.middle h3 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 50px;
+}
+
+.mid-content {
+  display: flex;
+  gap: 80px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box div {
+  width: 150px;
+  height: 150px;
+  border: 4px solid rgb(133, 133, 255);
+  border-radius: 15px;
+}
+
+.box p {
+  font-size: 18px;
+  color: #808080;
+  width: 150px;
+  margin: 5px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: oblique 20deg;
+  color: #1f2937;
+  padding: 75px;
+}
+
+section p {
+  width: 700px;
+}
+
+span {
+  display: block;
+  text-align: right;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bot-content {
+  background-color: #3882f6;
+  color: white;
+  width: 900px;
+  height: 150px;
+  margin: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.bot-content h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.bot-content p {
+  font: 18px;
+  margin: 5px;
+}
+
+.bot-content button {
+  background-color: #3882f6;
+  color: white;
+  width: 135px;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.foot {
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 100;
+}
